@@ -10,8 +10,8 @@
     - 귀찮아서 독도 자름
 
 ## 참고 링크
-- [지역 SHP 파일 (2020 기준)](http://data.nsdi.go.kr/dataset/20171206ds00001)
-    - 이를 바탕으로 변경 사항을 수정하였음.
+- [지역 SHP 파일 (2021.06.30 기준)](http://data.nsdi.go.kr/dataset/20171206ds00001)
+    - 위 파일을 바탕으로 행정구역 변경 사항을 수정하였음.
     - [다음 폴더](./shp/)에 `electionmap.7z`로 압축해 업로드해 놓았음
 - [행정구역코드](https://mois.go.kr/frt/bbs/type001/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000052&nttId=89611)
 - [코드들에 대하여](https://blog.naver.com/PostView.nhn?blogId=leonheart85&logNo=221085795006)

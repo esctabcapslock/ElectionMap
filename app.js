@@ -2,7 +2,7 @@ const http = require('http')
 const fs = require('fs')
 const Cheerio = require('cheerio');
 const { rejects } = require('assert');
-const User_Agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0'
+const User_Agent = ''
 
 function parsepost(obj){
     out = []
