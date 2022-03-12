@@ -16,6 +16,7 @@
     - [다음 폴더](./shp/)에 `electionmap.7z`로 압축해 업로드해 놓았음
 - [행정구역코드](https://mois.go.kr/frt/bbs/type001/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000052&nttId=89611)
 - [코드들에 대하여](https://blog.naver.com/PostView.nhn?blogId=leonheart85&logNo=221085795006)
+- [재미있는 읽을거리](https://www.vw-lab.com/40)
 
 # 지역 순위
 
@@ -102,6 +103,9 @@
 
 1위후보 득표율 + 2위후보 득표율 = 100으로 두고 비율을 계산해 그림
 ![](./output/양당.png)
+
+# 면적당 득표수 차이 지도
+![](./output/면적당득표수차.png)
 
 # 득표율 표준편차 지도
 
