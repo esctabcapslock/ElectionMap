@@ -1,12 +1,18 @@
-# 읍면동별 선거 관리
+# 읍면동별 선거 지도 그리기
 
 - 사전투표, 부재자투표는 위 통계에서 읍면동 정보가 나타나 있지 않아 제외함
-- [선관위 통계](http://info.nec.go.kr/main/showDocument.xhtml?electionId=0020220309&topMenuId=VC&secondMenuId=VCCP08) 이용함
-- [app.js](./app.js)를 통해 크롤링해 [data.csv](./sheet/data.csv)에 저장, [join_선거DATA_동별가공.csv](./sheet/join_선거DATA_동별가공.csv)으로 가공
+
+1. [선관위 통계](http://info.nec.go.kr/main/showDocument.xhtml?electionId=0020220309&topMenuId=VC&secondMenuId=VCCP08) 이용함
+1. [app.js](./app.js)를 통해 크롤링
+2. [data.csv](./sheet/data.csv)에 저장
+3. [join_선거DATA_동별가공.csv](./sheet/join_선거DATA_동별가공.csv)으로 가공
+4. QGIS로 지도 그렸음
+    - 귀찮아서 독도 자름
 
 ## 참고 링크
 - [지역 SHP 파일 (2020 기준)](http://data.nsdi.go.kr/dataset/20171206ds00001)
-    - 이를 바탕으로 노가다로 수정하였음.
+    - 이를 바탕으로 변경 사항을 수정하였음.
+    - [다음 폴더](./shp/)에 `electionmap.7z`로 압축해 업로드해 놓았음
 - [행정구역코드](https://mois.go.kr/frt/bbs/type001/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000052&nttId=89611)
 - [코드들에 대하여](https://blog.naver.com/PostView.nhn?blogId=leonheart85&logNo=221085795006)
 
