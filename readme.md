@@ -13,7 +13,7 @@
 ## 참고 링크
 - [지역 SHP 파일 (2021.06.30 기준)](http://data.nsdi.go.kr/dataset/20171206ds00001)
     - 위 파일을 바탕으로 [행안부 공지](https://mois.go.kr/frt/bbs/type001/commonSelectBoardList.do?bbsId=BBSMSTR_000000000052)를 역추적해 QGIS 노가다로 행정구역 변경 사항을 수정하였음.
-    - [다음 폴더](./shp/)에 `electionmap.7z`로 압축해 업로드해 놓았음
+    - [./shp 폴더](./shp/)에 `electionmap.7z`로 압축해 업로드해 놓았음
 - [행정구역코드](https://mois.go.kr/frt/bbs/type001/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000052&nttId=89611)
 - [코드들에 대하여](https://blog.naver.com/PostView.nhn?blogId=leonheart85&logNo=221085795006)
 - [재미있는 읽을거리](https://www.vw-lab.com/40)
